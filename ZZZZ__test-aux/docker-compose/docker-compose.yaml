@@ -1,0 +1,8 @@
+version: '3'
+services:
+  #################
+  # Load Balancer #
+  bounce-request:
+    image: docker.io/andrebaceti/bounce-request-test-image:0.0
+    ports:
+      - "8080:5000"
