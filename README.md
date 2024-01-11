@@ -1,6 +1,8 @@
 # test-bounce-image
 Dummy image that returns request data with headers and other
-request information. It can be used to check service mesh redirection
+request information.
+
+It can be used to check service mesh redirection
 to correct micro-services.
 
 
